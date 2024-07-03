@@ -1,3 +1,11 @@
+```mermaid
+graph LR
+A[Hard edge] -->B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+```
+
 # Patchwork
 
 ![screenshot](https://raw.githubusercontent.com/jlord/patchwork/gh-pages/patchwork-ss.png)
